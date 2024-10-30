@@ -4,6 +4,9 @@ apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
   name: examples
+  description: The place to be, for great artists
+  labels:
+    example.com/custom: custom_label_value
 spec:
   owner: guests
 ---

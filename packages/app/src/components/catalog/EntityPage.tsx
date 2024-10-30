@@ -59,6 +59,8 @@ import {
   isKubernetesAvailable,
 } from '@backstage/plugin-kubernetes';
 
+import { KingpowerSystemAttributeComponent } from '@internal/backstage-plugin-kingpower-system-attribute';
+
 const techdocsContent = (
   <EntityTechdocsContent>
     <TechDocsAddons>
@@ -354,6 +356,9 @@ const systemPage = (
         </Grid>
         <Grid item md={6}>
           <EntityHasResourcesCard variant="gridItem" />
+        </Grid>
+        <Grid item md={6}>
+          <KingpowerSystemAttributeComponent />
         </Grid>
       </Grid>
     </EntityLayout.Route>

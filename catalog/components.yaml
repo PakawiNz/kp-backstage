@@ -1,0 +1,1496 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: billing
+metadata:
+    name: com-billing
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: cisco-contact-center
+metadata:
+    name: com-cisco-contact-center
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: call-manager
+metadata:
+    name: com-call-manager
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: customs-in-land
+metadata:
+    name: com-customs-in-land
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: inland-declaration-message
+metadata:
+    name: com-inland-declaration-message
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: coupon-member
+metadata:
+    name: com-coupon-member
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: dynamic-crm-contact-center
+metadata:
+    name: com-dynamic-crm-contact-center
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: data-distribution-server-dds
+metadata:
+    name: com-data-distribution-server-dds
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: event-coupon-cash-card
+metadata:
+    name: com-event-coupon-cash-card
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: e-coupon
+    providesApis:
+    - api-post-generate-qr-code
+    - api-post-get-qr-code
+    - api-post-discard
+    - api-get-status
+    - api-post-verify-setup-qr-code
+    - api-post-use-qr-code
+    - api-post-cancel-use-qr-code
+    - api-verify-setup-qr-code
+    - api-post-generate-qr-code
+    - api-post-generate-qr-code
+    - api-post-get-qr-code
+    - api-post-discard
+    - api-get-status
+    - api-get-status
+    - api-post-verify-setup-qr-code
+    - api-post-verify-setup-qr-code
+    - api-post-use-qr-code
+    - api-post-cancel-use-qr-code
+metadata:
+    name: com-e-coupon
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: enterprise-data-platform
+    providesApis:
+    - api-data-sync-transaction
+    - api-data-sync-transaction
+    - api-data-sync-discount
+    - api-data-sync-discount
+    - api-data-sync-payment
+    - api-data-sync-payment
+    - api-data-sync-promotion
+    - api-data-sync-promotion
+    - api-data-sync-product
+    - api-data-sync-product
+    - api-data-sync-customer
+    - api-data-sync-agent
+    - api-data-sync-subagent
+    - api-data-sync-transaction
+    - api-data-sync-tour
+    - api-data-sync-branch
+    - api-data-sync-machine
+    - api-data-sync-order
+    - api-data-sync-customer
+    - api-data-sync-customer
+    - api-data-sync-shopping-card
+    - api-data-sync-platform
+    - api-data-sync-collection-point
+    - api-data-sync-transaction
+    - api-data-sync-pack
+    - api-data-sync-recipient
+    - api-data-sync-pick-up
+    - api-data-sync-location
+    - api-data-sync-order
+    - api-data-sync-recipient-order
+    - api-data-sync-person-account
+    - api-data-sync-address
+    - api-data-sync-passport
+    - api-data-sync-account-relationship
+    - api-data-sync-case
+    - api-data-sync-contact
+    - api-data-sync-feedback-response
+    - api-data-sync-email
+    - api-data-sync-journey
+    - api-data-sync-line
+    - api-data-sync-push
+    - api-data-sync-sms
+    - api-data-sync-campaign
+    consumesApis:
+    - api-get-best-selling-products
+    - api-data-sync-audience
+metadata:
+    name: com-enterprise-data-platform
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: e-filling-easy-software
+metadata:
+    name: com-e-filling-easy-software
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: e-tax
+metadata:
+    name: com-e-tax
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: furniture-asset-management
+metadata:
+    name: com-furniture-asset-management
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: fast-lane
+    consumesApis:
+    - api-post-generate-qr-code
+    - api-post-get-qr-code
+    - api-post-discard
+    - api-get-status
+    - api-post-verify-setup-qr-code
+    - api-post-use-qr-code
+    - api-post-cancel-use-qr-code
+    - api-post-get-flight-by-code
+    - api-post-get-date-by-flight
+    - api-post-get-customer
+    - api-post-register-api
+    - api-chk-consent
+    - api-update-consent
+    - api-login
+metadata:
+    name: com-fast-lane
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: firster
+metadata:
+    name: com-firster
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: gift-voucher
+metadata:
+    name: com-gift-voucher
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: voucher-control
+metadata:
+    name: com-voucher-control
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: cash-card
+    providesApis:
+    - api-create-e-cash-card-e-gift-card
+    - api-issue-card-สร้าง-qr-gift-card
+    - api-check-card-ตรวจสอบยอดเงินคงเหลือ
+    - api-check-valid-for-issue-card
+    - api-get-cash-item
+    - api-request-otqr-สร้าง-otqr-ตอนนำ-giftcard-มาใช้
+metadata:
+    name: com-cash-card
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: hcm-coach
+metadata:
+    name: com-hcm-coach
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: it-asset-management
+metadata:
+    name: com-it-asset-management
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: it-framework-api
+metadata:
+    name: com-it-framework-api
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: it-framework-integration
+metadata:
+    name: com-it-framework-integration
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: workflow-management-k-2
+metadata:
+    name: com-workflow-management-k-2
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: kpg-booking-shop-operation
+metadata:
+    name: com-kpg-booking-shop-operation
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: kingpower-cn-com
+    consumesApis:
+    - api-get-api-online-check-purchase-rights
+    - api-get-api-online-get-order
+    - api-get-api-online-get-order-list
+    - api-get-api-online-hold-order
+    - api-get-api-online-void-order
+    - api-get-api-queue-sale-by-sku
+metadata:
+    name: com-kingpower-cn-com
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: kingpower-com-kingpower-app
+    consumesApis:
+    - api-create-member-profile-api-registration-api
+    - api-update-member-profile-api
+    - api-
+    - api-search-member
+    - api-create-member-relation
+    - api-remove-member-relation
+    - api-get-loyalty-carat-balance
+    - api-get-loyalty-carat-transactions
+    - api-get-loyalty-e-purse-balance
+    - api-get-loyalty-e-purse-transactions
+    - api-get-loyalty-profile
+    - api-deposit-wallet
+    - api-spend-wallet
+    - api-refund-wallet
+    - api-update-member-package
+    - api-create-member-profile-enhanchment-shopping-card
+    - api-online-sales-transaction
+    - api-get-member-offers
+    - api-get-api-online-check-purchase-rights
+    - api-get-api-online-get-order
+    - api-get-api-online-get-order-list
+    - api-get-api-online-hold-order
+    - api-get-api-online-void-order
+    - api-get-api-queue-sale-by-sku
+    - api-data-sync-order
+    - api-data-sync-customer
+    - api-create-consent
+    - api-get-consent
+    - api-update-consent
+    - api-get-list-purposes
+    providesApis:
+    - api-orders-status-cancel-sub-order-id-warehouse
+    - api-orders-status-cancel-sub-order-id-warehouse
+    - api-orders-status-hold-sub-order-id-shop
+    - api-orders-status-hold-sub-order-id-shop
+    - api-orders-status-unhold-sub-order-id-shop
+    - api-orders-status-unhold-sub-order-id-shop
+    - api-orders-status-cancel-order-id
+    - api-orders-status-cancel-order-id
+    - api-orders-sub-order-id-delivered
+    - api-orders-sub-order-id-delivered
+    - api-orders-sub-order-id-delivered-suspend
+    - api-orders-sub-order-id-delivered-suspend
+    - api-orders-sub-order-id-dispatch
+    - api-orders-sub-order-id-dispatch
+    - api-orders-sub-order-id-packed
+    - api-orders-sub-order-id-packed
+    - api-orders-sub-order-id-shipped
+    - api-orders-sub-order-id-shipped
+metadata:
+    name: com-kingpower-com-kingpower-app
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: kpsc-king-power-system-configuration
+metadata:
+    name: com-kpsc-king-power-system-configuration
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: member-platform-for-line-channel
+metadata:
+    name: com-member-platform-for-line-channel
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: mpos-airport
+metadata:
+    name: com-mpos-airport
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: mpos-downtown
+metadata:
+    name: com-mpos-downtown
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: meeting-room-reservation
+metadata:
+    name: com-meeting-room-reservation
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: order-management-oms
+    consumesApis:
+    - api-post-api-hanging-reserve-hanging
+    - api-data-sync-customer
+    - api-data-sync-shopping-card
+    - api-data-sync-platform
+    - api-data-sync-collection-point
+    - api-data-sync-transaction
+    - api-orders-status-cancel-sub-order-id-warehouse
+    - api-orders-status-hold-sub-order-id-shop
+    - api-orders-status-unhold-sub-order-id-shop
+    - api-orders-status-cancel-order-id
+    - api-orders-sub-order-id-delivered
+    - api-orders-sub-order-id-delivered-suspend
+    - api-orders-sub-order-id-dispatch
+    - api-orders-sub-order-id-packed
+    - api-orders-sub-order-id-shipped
+    - api-post-api-hanging-cancel-reserve-hanging
+    providesApis:
+    - api-cancel-order
+    - api-cancel-order
+    - api-check-flight-fuzzy
+    - api-check-flight-fuzzy
+    - api-get-order
+    - api-get-order
+    - api-get-api-online-check-purchase-rights
+    - api-get-api-online-check-purchase-rights
+    - api-get-api-online-check-purchase-rights
+    - api-get-api-online-get-order
+    - api-get-api-online-get-order
+    - api-get-api-online-get-order
+    - api-get-api-online-get-order-list
+    - api-get-api-online-get-order-list
+    - api-get-api-online-get-order-list
+    - api-get-api-online-hold-order
+    - api-get-api-online-hold-order
+    - api-get-api-online-hold-order
+    - api-get-api-online-void-order
+    - api-get-api-online-void-order
+    - api-get-api-online-void-order
+    - api-get-api-queue-sale-by-sku
+    - api-get-api-queue-sale-by-sku
+    - api-get-api-queue-sale-by-sku
+    - api-post-kp-create-order
+    - api-post-kp-create-order
+    - api-post-kp-get-order-status
+    - api-post-kp-get-order-status
+    - api-post-kp-update-order-status
+    - api-post-kp-update-order-status
+    - api-post-get-flight-by-code
+    - api-post-get-flight-by-code
+    - api-post-get-date-by-flight
+    - api-post-validate-flight
+    - api-save-order
+    - api-save-order
+    - api-validate-code
+    - api-validate-code
+metadata:
+    name: com-order-management-oms
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: checker
+metadata:
+    name: com-checker
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: ecommerce-daily-report-auto-mail
+metadata:
+    name: com-ecommerce-daily-report-auto-mail
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: onestop
+    consumesApis:
+    - api-get-list-district
+    - api-get-list-loyalty-card-info
+    - api-get-list-province
+    - api-get-list-china-province
+    - api-get-list-sub-district
+    - api-
+    - api-post-create-document
+    - api-post-get-loyalty-value
+    - api-post-get-member-profile
+    - api-post-update-member-profile
+    - api-post-verify-member-status-by-passport
+    - api-verify-mobile-status
+metadata:
+    name: com-onestop
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: one-trust-pdpa
+    consumesApis:
+    - api-sync-kpc-consent-data-to-salesforce
+metadata:
+    name: com-one-trust-pdpa
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: pdpa-service
+    providesApis:
+    - api-create-consent
+    - api-create-consent
+    - api-create-consent
+    - api-create-consent
+    - api-get-consent
+    - api-get-consent
+    - api-get-consent
+    - api-get-consent
+    - api-update-consent
+    - api-update-consent
+    - api-update-consent
+    - api-update-consent
+    - api-get-list-purposes
+    - api-get-list-purposes
+    - api-get-list-purposes
+    - api-get-list-purposes
+    - api-chk-consent
+    - api-update-consent
+    - api-login
+metadata:
+    name: com-pdpa-service
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: pickup-counter
+    providesApis:
+    - api-post-api-hanging-reserve-hanging
+    - api-post-api-hanging-reserve-hanging
+    - api-get-api-hanging-get-summary-hanging-info
+    - api-
+    - api-post-api-hanging-set-intransit
+    - api-post-api-master-list-location
+    - api-post-api-master-list-airport
+    - api-post-api-master-list-hanging-type
+    - api-post-api-master-list-status
+    - api-post-api-master-list-pickup
+    - api-post-api-master-list-tracking-status
+    - api-get-api-master-list-airline
+    - api-post-api-master-list-flight
+    - api-post-api-master-list-nation
+    - api-post-api-master-list-operator
+    - api-post-api-master-list-machine
+    - api-post-api-master-list-hanging
+    - api-post-api-master-manage-flight
+    - api-post-api-hanging-cancel-reserve-hanging
+    - api-post-api-hanging-cancel-reserve-hanging
+    consumesApis:
+    - api-get-api-hanging-get-summary-hanging-info
+    - api-
+    - api-post-api-hanging-set-intransit
+    - api-post-api-master-list-location
+    - api-post-api-master-list-airport
+    - api-post-api-master-list-hanging-type
+    - api-post-api-master-list-status
+    - api-post-api-master-list-pickup
+    - api-post-api-master-list-tracking-status
+    - api-get-api-master-list-airline
+    - api-post-api-master-list-flight
+    - api-post-api-master-list-nation
+    - api-post-api-master-list-operator
+    - api-post-api-master-list-machine
+    - api-post-api-master-list-hanging
+    - api-post-api-master-manage-flight
+    - api-data-sync-pack
+    - api-data-sync-recipient
+    - api-data-sync-pick-up
+    - api-data-sync-location
+    - api-data-sync-order
+    - api-data-sync-recipient-order
+    - api-orders-status-cancel-sub-order-id-warehouse
+    - api-orders-status-hold-sub-order-id-shop
+    - api-orders-status-unhold-sub-order-id-shop
+    - api-orders-status-cancel-order-id
+    - api-orders-sub-order-id-delivered
+    - api-orders-sub-order-id-delivered-suspend
+    - api-orders-sub-order-id-dispatch
+    - api-orders-sub-order-id-packed
+    - api-orders-sub-order-id-shipped
+metadata:
+    name: com-pickup-counter
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: pickup-counter-carry
+metadata:
+    name: com-pickup-counter-carry
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: queue-management-pickup-counter
+metadata:
+    name: com-queue-management-pickup-counter
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: payment-gateway
+    providesApis:
+    - api-submit-payment-request
+    - api-order-query
+    - api-reverse-order
+metadata:
+    name: com-payment-gateway
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: e-filling-integration
+metadata:
+    name: com-e-filling-integration
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: packing
+metadata:
+    name: com-packing
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: pos-ap
+metadata:
+    name: com-pos-ap
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: pos-downtown
+metadata:
+    name: com-pos-downtown
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: pos-f-b
+metadata:
+    name: com-pos-f-b
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: f-b-reservation
+metadata:
+    name: com-f-b-reservation
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: vat-refund-e-pp-10-app
+metadata:
+    name: com-vat-refund-e-pp-10-app
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: printing-rental-management
+metadata:
+    name: com-printing-rental-management
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: pos-thai-taste-hub
+metadata:
+    name: com-pos-thai-taste-hub
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: registration-kiosk
+    consumesApis:
+    - api-create-consent
+    - api-get-consent
+    - api-update-consent
+    - api-get-list-purposes
+metadata:
+    name: com-registration-kiosk
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: mobile-register
+metadata:
+    name: com-mobile-register
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: staff-app
+    consumesApis:
+    - api-post-get-member-profile
+    - api-post-get-customer
+    providesApis:
+    - api-get-best-selling-products
+metadata:
+    name: com-staff-app
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: signage-f-b-content
+metadata:
+    name: com-signage-f-b-content
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: crm-salesforce
+    providesApis:
+    - api-create-member-profile-api-registration-api
+    - api-create-member-profile-api-registration-api
+    - api-update-member-profile-api
+    - api-update-member-profile-api
+    - api-
+    - api-
+    - api-reconcile-create-update-member-profile
+    - api-reconcile-create-update-member-profile
+    - api-search-member
+    - api-create-member-relation
+    - api-remove-member-relation
+    - api-sync-kpc-consent-data-to-salesforce
+    - api-update-member-profile
+    - api-create-member-profile-enhanchment-shopping-card
+    - api-create-member-profile-enhanchment-shopping-card
+    - api-sync-lv-member-tiers-enhancement-ms-01
+    - api-sync-member-tier-data
+    consumesApis:
+    - api-reconcile-create-update-member-profile
+    - api-reconcile-create-update-member-profile
+    - api-create-member-profile-enhanchment-shopping-card
+    - api-data-sync-person-account
+    - api-data-sync-address
+    - api-data-sync-passport
+    - api-data-sync-account-relationship
+    - api-data-sync-case
+    - api-data-sync-contact
+    - api-data-sync-feedback-response
+    - api-sync-member-profile-data
+metadata:
+    name: com-crm-salesforce
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: ma-salesforce
+    consumesApis:
+    - api-data-sync-email
+    - api-data-sync-journey
+    - api-data-sync-line
+    - api-data-sync-push
+    - api-data-sync-sms
+    - api-data-sync-campaign
+    providesApis:
+    - api-data-sync-audience
+metadata:
+    name: com-ma-salesforce
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: member-system-smc
+    consumesApis:
+    - api-create-member-profile-api-registration-api
+    - api-update-member-profile-api
+    - api-
+    - api-update-member-profile
+    - api-sync-loyalty-value-transactions
+    - api-sync-lv-member-tiers-enhancement-ms-01
+    - api-create-consent
+    - api-get-consent
+    - api-update-consent
+    - api-get-list-purposes
+    providesApis:
+    - api-reconcile-create-update-member-profile
+    - api-reconcile-create-update-member-profile
+    - api-prepaid-activate-card
+    - api-prepaid-check-activate
+    - api-prepaid-cancel-card
+    - api-prepaid-deactivate-card
+    - api-prepaid-register
+metadata:
+    name: com-member-system-smc
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: group-wide-loyalty
+metadata:
+    name: com-group-wide-loyalty
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: member-api
+    providesApis:
+    - api-get-list-district
+    - api-get-list-district
+    - api-get-list-loyalty-card-info
+    - api-get-list-loyalty-card-info
+    - api-get-list-loyalty-card-info
+    - api-get-list-province
+    - api-get-list-province
+    - api-get-list-china-province
+    - api-get-list-sub-district
+    - api-get-list-sub-district
+    - api-
+    - api-
+    - api-post-create-document
+    - api-post-create-document
+    - api-post-create-document
+    - api-post-get-loyalty-value
+    - api-post-get-loyalty-value
+    - api-post-get-loyalty-value
+    - api-post-get-member-profile
+    - api-post-get-member-profile
+    - api-post-get-member-profile
+    - api-post-get-member-profile
+    - api-post-reverse-document
+    - api-post-reverse-document
+    - api-post-update-member-profile
+    - api-post-update-member-profile
+    - api-post-update-member-profile
+    - api-post-verify-member-status-by-passport
+    - api-post-verify-member-status-by-passport
+    - api-post-verify-member-status-by-passport
+    - api-verify-mobile-status
+    - api-check-duplicate-create-document
+    - api-register-member-royalty
+    - api-verify-member-royalty
+    - api-get-member-data
+    - api-top-up-e-purse
+    - api-get-verify-member-status-idcard-email
+    - api-get-verify-member-status-idcard-email
+    - api-get-verify-member-status-idcard-mobile
+    - api-get-verify-member-status-idcard-mobile
+    - api-get-verify-member-status-passport-email
+    - api-get-verify-member-status-passport-email
+    - api-get-verify-member-status-passport-mobile
+    - api-get-verify-member-status-passport-mobile
+    - api-get-verify-member-mobile
+    - api-get-verify-member-mobile
+    - api-get-verify-member-name-englishand-thai
+    - api-get-verify-member-name-englishand-thai
+    - api-get-list-nationality
+    - api-get-list-title
+    - api-get-last-document-result
+    - api-post-validate-register-new-member
+    - api-post-auto-create-king-power-member-card
+    - api-post-auto-create-king-power-member-card
+    - api-post-create-king-power-member-card
+    - api-post-create-king-power-member-card
+    - api-post-register-new-member
+    - api-post-register-new-member
+    - api-post-validate-create-document-request
+    - api-post-validate-loyalty-request-document
+    - api-post-validate-loyalty-request-document
+    - api-post-verify-create-kingpower-card
+    - api-post-verify-create-kingpower-card
+    - api-post-verify-member-status
+    - api-post-verify-member-status
+    - api-get-historical-loyalty
+    consumesApis:
+    - api-prepaid-activate-card
+    - api-prepaid-check-activate
+    - api-prepaid-cancel-card
+    - api-prepaid-deactivate-card
+    - api-prepaid-register
+metadata:
+    name: com-member-api
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: sale-online-web-and-api-report-and-dashboard
+metadata:
+    name: com-sale-online-web-and-api-report-and-dashboard
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: stock-count-windows-mobile
+metadata:
+    name: com-stock-count-windows-mobile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: stock-count-android-mobile
+metadata:
+    name: com-stock-count-android-mobile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: sap-bw
+metadata:
+    name: com-sap-bw
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: sap-s-4-car-4
+    consumesApis:
+    - api-data-sync-transaction
+    - api-data-sync-discount
+    - api-data-sync-payment
+    - api-data-sync-promotion
+    - api-data-sync-product
+metadata:
+    name: com-sap-s-4-car-4
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: loyalty-session-m
+    providesApis:
+    - api-send-order-transaction
+    - api-get-loyalty-carat-balance
+    - api-get-loyalty-carat-transactions
+    - api-get-loyalty-e-purse-balance
+    - api-get-loyalty-e-purse-transactions
+    - api-get-loyalty-profile
+    - api-deposit-wallet
+    - api-spend-wallet
+    - api-refund-wallet
+    - api-update-member-package
+    - api-online-sales-transaction
+    - api-offline-sales-transaction
+    - api-cancel-sales-transaction
+    - api-use-birthday-privilege
+    - api-sync-loyalty-value-transactions
+    - api-get-member-offers
+    - api-sync-member-profile-data
+    consumesApis:
+    - api-reconcile-create-update-member-profile
+    - api-reconcile-create-update-member-profile
+    - api-sync-member-tier-data
+metadata:
+    name: com-loyalty-session-m
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: digital-signage
+metadata:
+    name: com-digital-signage
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: pick-to-light-bin-management
+metadata:
+    name: com-pick-to-light-bin-management
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: ev-charger-communication
+metadata:
+    name: com-ev-charger-communication
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: aot-realtime-online-for-both-pos-and-pickup-counter
+metadata:
+    name: com-aot-realtime-online-for-both-pos-and-pickup-counter
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: lenso-sortation
+metadata:
+    name: com-lenso-sortation
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: cctv-systems
+metadata:
+    name: com-cctv-systems
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: license-plate
+metadata:
+    name: com-license-plate
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: tour-agent-airport
+metadata:
+    name: com-tour-agent-airport
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: tour-agent-downtown
+metadata:
+    name: com-tour-agent-downtown
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: tiffa-customs-declare-ezy-plus
+metadata:
+    name: com-tiffa-customs-declare-ezy-plus
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: tai-hai-tao
+    consumesApis:
+    - api-cancel-order
+    - api-check-flight-fuzzy
+    - api-get-order
+    - api-post-kp-create-order
+    - api-post-kp-get-order-status
+    - api-post-kp-update-order-status
+    - api-save-order
+    - api-validate-code
+    providesApis:
+    - api-get-stocks
+    - api-patch-stocks
+    - api-get-stocks-sku
+    - api-patch-stocks-sku
+metadata:
+    name: com-tai-hai-tao
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: tms-tenant-management-system
+metadata:
+    name: com-tms-tenant-management-system
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: virtual-stock-online-kpc-tht
+    providesApis:
+    - api-get-stocks
+    - api-patch-stocks
+    - api-get-stocks-sku
+    - api-patch-stocks-sku
+metadata:
+    name: com-virtual-stock-online-kpc-tht
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: virtual-stock-offline
+    providesApis:
+    - api-api-virtual-stock-get-master-article
+    - api-api-virtual-stock-get-master-remain
+    - api-api-virtual-stock-paid-order
+    - api-api-virtual-stock-split-order
+    - api-api-virtual-stock-rs-virtual-stock
+    - api-api-virtual-stock-refund-order
+metadata:
+    name: com-virtual-stock-offline
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: we-chat
+    consumesApis:
+    - api-get-api-online-check-purchase-rights
+    - api-get-api-online-get-order
+    - api-get-api-online-get-order-list
+    - api-get-api-online-hold-order
+    - api-get-api-online-void-order
+    - api-get-api-queue-sale-by-sku
+metadata:
+    name: com-we-chat
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: kp-one-pass
+metadata:
+    name: com-kp-one-pass
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: sap-ecc-6-0
+    consumesApis:
+    - api-data-sync-transaction
+    - api-data-sync-discount
+    - api-data-sync-payment
+    - api-data-sync-promotion
+    - api-data-sync-product
+metadata:
+    name: com-sap-ecc-6-0
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: jessica
+    consumesApis:
+    - api-post-generate-qr-code
+    - api-post-get-qr-code
+    - api-post-discard
+    - api-get-status
+    - api-post-verify-setup-qr-code
+    - api-post-use-qr-code
+    - api-post-cancel-use-qr-code
+    - api-cancel-order
+    - api-check-flight-fuzzy
+    - api-get-order
+    - api-get-list-loyalty-card-info
+    - api-
+    - api-post-create-document
+    - api-post-get-loyalty-value
+    - api-post-get-member-profile
+    - api-post-reverse-document
+    - api-post-update-member-profile
+    - api-post-verify-member-status-by-passport
+    - api-post-kp-create-order
+    - api-post-kp-get-order-status
+    - api-post-kp-update-order-status
+    - api-get-verify-member-status-idcard-email
+    - api-get-verify-member-status-idcard-mobile
+    - api-get-verify-member-status-passport-email
+    - api-get-verify-member-status-passport-mobile
+    - api-get-verify-member-mobile
+    - api-get-verify-member-name-englishand-thai
+    - api-get-last-document-result
+    - api-post-get-flight-by-code
+    - api-post-validate-flight
+    - api-post-validate-register-new-member
+    - api-post-get-customer
+    - api-post-register-api
+    - api-save-order
+    - api-validate-code
+    - api-post-auto-create-king-power-member-card
+    - api-post-create-king-power-member-card
+    - api-post-register-new-member
+    - api-post-validate-create-document-request
+    - api-post-validate-loyalty-request-document
+    - api-post-verify-create-kingpower-card
+    - api-post-verify-member-status
+    - api-get-stocks
+    - api-get-stocks
+    - api-patch-stocks
+    - api-patch-stocks
+    - api-get-stocks-sku
+    - api-get-stocks-sku
+    - api-patch-stocks-sku
+    - api-patch-stocks-sku
+    - api-get-historical-loyalty
+metadata:
+    name: com-jessica
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: line-oa
+    consumesApis:
+    - api-verify-setup-qr-code
+    - api-post-generate-qr-code
+    - api-get-status
+    - api-post-verify-setup-qr-code
+    - api-create-e-cash-card-e-gift-card
+    - api-issue-card-สร้าง-qr-gift-card
+    - api-check-card-ตรวจสอบยอดเงินคงเหลือ
+    - api-check-valid-for-issue-card
+    - api-get-cash-item
+    - api-request-otqr-สร้าง-otqr-ตอนนำ-giftcard-มาใช้
+    - api-get-list-district
+    - api-get-list-loyalty-card-info
+    - api-get-list-province
+    - api-get-list-sub-district
+    - api-post-create-document
+    - api-post-get-loyalty-value
+    - api-post-get-member-profile
+    - api-post-reverse-document
+    - api-post-update-member-profile
+    - api-post-verify-member-status-by-passport
+    - api-check-duplicate-create-document
+    - api-register-member-royalty
+    - api-verify-member-royalty
+    - api-get-member-data
+    - api-top-up-e-purse
+    - api-get-verify-member-status-idcard-email
+    - api-get-verify-member-status-idcard-mobile
+    - api-get-verify-member-status-passport-email
+    - api-get-verify-member-status-passport-mobile
+    - api-get-verify-member-mobile
+    - api-get-verify-member-name-englishand-thai
+    - api-get-list-nationality
+    - api-get-list-title
+    - api-post-auto-create-king-power-member-card
+    - api-post-create-king-power-member-card
+    - api-post-register-new-member
+    - api-post-validate-loyalty-request-document
+    - api-post-verify-create-kingpower-card
+    - api-post-verify-member-status
+    - api-create-consent
+    - api-get-consent
+    - api-update-consent
+    - api-get-list-purposes
+metadata:
+    name: com-line-oa
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: mulesoft
+metadata:
+    name: com-mulesoft
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+    owner: guests
+    type: service
+    lifecycle: production
+    system: pos
+    consumesApis:
+    - api-send-order-transaction
+    - api-offline-sales-transaction
+    - api-cancel-sales-transaction
+    - api-use-birthday-privilege
+    - api-post-api-hanging-reserve-hanging
+    - api-data-sync-customer
+    - api-data-sync-agent
+    - api-data-sync-subagent
+    - api-data-sync-transaction
+    - api-data-sync-tour
+    - api-data-sync-branch
+    - api-data-sync-machine
+    - api-post-api-hanging-cancel-reserve-hanging
+    - api-api-virtual-stock-get-master-article
+    - api-api-virtual-stock-get-master-remain
+    - api-api-virtual-stock-paid-order
+    - api-api-virtual-stock-split-order
+    - api-api-virtual-stock-rs-virtual-stock
+    - api-submit-payment-request
+    - api-order-query
+    - api-reverse-order
+    - api-api-virtual-stock-refund-order
+    providesApis:
+    - api-post-get-customer
+    - api-post-get-customer
+    - api-post-get-customer
+    - api-post-register-api
+    - api-post-register-api
+metadata:
+    name: com-pos

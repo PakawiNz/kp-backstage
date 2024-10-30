@@ -1,0 +1,3809 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: e-coupon
+    definition: '
+
+        '
+metadata:
+    name: api-post-generate-qr-code
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: e-coupon
+    definition: '
+
+        '
+metadata:
+    name: api-post-get-qr-code
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: e-coupon
+    definition: '
+
+        '
+metadata:
+    name: api-post-discard
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: e-coupon
+    definition: '
+
+        '
+metadata:
+    name: api-get-status
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: e-coupon
+    definition: '
+
+        '
+metadata:
+    name: api-post-verify-setup-qr-code
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: e-coupon
+    definition: '
+
+        '
+metadata:
+    name: api-post-use-qr-code
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: e-coupon
+    definition: '
+
+        '
+metadata:
+    name: api-post-cancel-use-qr-code
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: e-coupon
+    definition: '
+
+        '
+metadata:
+    name: api-verify-setup-qr-code
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: e-coupon
+    definition: '
+
+        '
+metadata:
+    name: api-post-generate-qr-code
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: e-coupon
+    definition: '
+
+        '
+metadata:
+    name: api-post-generate-qr-code
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: e-coupon
+    definition: '
+
+        '
+metadata:
+    name: api-post-get-qr-code
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: e-coupon
+    definition: '
+
+        '
+metadata:
+    name: api-post-discard
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: e-coupon
+    definition: '
+
+        '
+metadata:
+    name: api-get-status
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: e-coupon
+    definition: '
+
+        '
+metadata:
+    name: api-get-status
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: e-coupon
+    definition: '
+
+        '
+metadata:
+    name: api-post-verify-setup-qr-code
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: e-coupon
+    definition: '
+
+        '
+metadata:
+    name: api-post-verify-setup-qr-code
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: crm-salesforce
+    definition: '
+
+        '
+metadata:
+    name: api-create-member-profile-api-registration-api
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: crm-salesforce
+    definition: '
+
+        '
+metadata:
+    name: api-create-member-profile-api-registration-api
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: crm-salesforce
+    definition: '
+
+        '
+metadata:
+    name: api-update-member-profile-api
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: crm-salesforce
+    definition: '
+
+        '
+metadata:
+    name: api-update-member-profile-api
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: crm-salesforce
+    definition: '
+
+        '
+metadata:
+    name: api-
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: crm-salesforce
+    definition: '
+
+        '
+metadata:
+    name: api-
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: loyalty-session-m
+    definition: '
+
+        '
+metadata:
+    name: api-send-order-transaction
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: member-system-smc
+    definition: '
+
+        '
+metadata:
+    name: api-reconcile-create-update-member-profile
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: member-system-smc
+    definition: '
+
+        '
+metadata:
+    name: api-reconcile-create-update-member-profile
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: crm-salesforce
+    definition: '
+
+        '
+metadata:
+    name: api-reconcile-create-update-member-profile
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: crm-salesforce
+    definition: '
+
+        '
+metadata:
+    name: api-reconcile-create-update-member-profile
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: crm-salesforce
+    definition: '
+
+        '
+metadata:
+    name: api-search-member
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: crm-salesforce
+    definition: '
+
+        '
+metadata:
+    name: api-create-member-relation
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: crm-salesforce
+    definition: '
+
+        '
+metadata:
+    name: api-remove-member-relation
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: crm-salesforce
+    definition: '
+
+        '
+metadata:
+    name: api-sync-kpc-consent-data-to-salesforce
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: loyalty-session-m
+    definition: '
+
+        '
+metadata:
+    name: api-get-loyalty-carat-balance
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: loyalty-session-m
+    definition: '
+
+        '
+metadata:
+    name: api-get-loyalty-carat-transactions
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: loyalty-session-m
+    definition: '
+
+        '
+metadata:
+    name: api-get-loyalty-e-purse-balance
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: loyalty-session-m
+    definition: '
+
+        '
+metadata:
+    name: api-get-loyalty-e-purse-transactions
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: loyalty-session-m
+    definition: '
+
+        '
+metadata:
+    name: api-get-loyalty-profile
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: loyalty-session-m
+    definition: '
+
+        '
+metadata:
+    name: api-deposit-wallet
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: loyalty-session-m
+    definition: '
+
+        '
+metadata:
+    name: api-spend-wallet
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: loyalty-session-m
+    definition: '
+
+        '
+metadata:
+    name: api-refund-wallet
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: loyalty-session-m
+    definition: '
+
+        '
+metadata:
+    name: api-update-member-package
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: crm-salesforce
+    definition: '
+
+        '
+metadata:
+    name: api-update-member-profile
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: crm-salesforce
+    definition: '
+
+        '
+metadata:
+    name: api-create-member-profile-enhanchment-shopping-card
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: crm-salesforce
+    definition: '
+
+        '
+metadata:
+    name: api-create-member-profile-enhanchment-shopping-card
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: loyalty-session-m
+    definition: '
+
+        '
+metadata:
+    name: api-online-sales-transaction
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: loyalty-session-m
+    definition: '
+
+        '
+metadata:
+    name: api-offline-sales-transaction
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: loyalty-session-m
+    definition: '
+
+        '
+metadata:
+    name: api-cancel-sales-transaction
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: loyalty-session-m
+    definition: '
+
+        '
+metadata:
+    name: api-use-birthday-privilege
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: loyalty-session-m
+    definition: '
+
+        '
+metadata:
+    name: api-sync-loyalty-value-transactions
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: crm-salesforce
+    definition: '
+
+        '
+metadata:
+    name: api-sync-lv-member-tiers-enhancement-ms-01
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: loyalty-session-m
+    definition: '
+
+        '
+metadata:
+    name: api-get-member-offers
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: e-coupon
+    definition: '
+
+        '
+metadata:
+    name: api-post-use-qr-code
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: e-coupon
+    definition: '
+
+        '
+metadata:
+    name: api-post-cancel-use-qr-code
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: pickup-counter
+    definition: '
+
+        '
+metadata:
+    name: api-post-api-hanging-reserve-hanging
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: pickup-counter
+    definition: '
+
+        '
+metadata:
+    name: api-post-api-hanging-reserve-hanging
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: pickup-counter
+    definition: '
+
+        '
+metadata:
+    name: api-get-api-hanging-get-summary-hanging-info
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: cash-card
+    definition: '
+
+        '
+metadata:
+    name: api-create-e-cash-card-e-gift-card
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: pickup-counter
+    definition: '
+
+        '
+metadata:
+    name: api-
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: pickup-counter
+    definition: '
+
+        '
+metadata:
+    name: api-post-api-hanging-set-intransit
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: cash-card
+    definition: '
+
+        '
+metadata:
+    name: api-issue-card-สร้าง-qr-gift-card
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: cash-card
+    definition: '
+
+        '
+metadata:
+    name: api-check-card-ตรวจสอบยอดเงินคงเหลือ
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: cash-card
+    definition: '
+
+        '
+metadata:
+    name: api-check-valid-for-issue-card
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: cash-card
+    definition: '
+
+        '
+metadata:
+    name: api-get-cash-item
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: cash-card
+    definition: '
+
+        '
+metadata:
+    name: api-request-otqr-สร้าง-otqr-ตอนนำ-giftcard-มาใช้
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: order-management-oms
+    definition: '
+
+        '
+metadata:
+    name: api-cancel-order
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: order-management-oms
+    definition: '
+
+        '
+metadata:
+    name: api-cancel-order
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: order-management-oms
+    definition: '
+
+        '
+metadata:
+    name: api-check-flight-fuzzy
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: order-management-oms
+    definition: '
+
+        '
+metadata:
+    name: api-check-flight-fuzzy
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: pickup-counter
+    definition: '
+
+        '
+metadata:
+    name: api-post-api-master-list-location
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: pickup-counter
+    definition: '
+
+        '
+metadata:
+    name: api-post-api-master-list-airport
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: pickup-counter
+    definition: '
+
+        '
+metadata:
+    name: api-post-api-master-list-hanging-type
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: pickup-counter
+    definition: '
+
+        '
+metadata:
+    name: api-post-api-master-list-status
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: pickup-counter
+    definition: '
+
+        '
+metadata:
+    name: api-post-api-master-list-pickup
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: pickup-counter
+    definition: '
+
+        '
+metadata:
+    name: api-post-api-master-list-tracking-status
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: order-management-oms
+    definition: '
+
+        '
+metadata:
+    name: api-get-order
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: order-management-oms
+    definition: '
+
+        '
+metadata:
+    name: api-get-order
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: order-management-oms
+    definition: '
+
+        '
+metadata:
+    name: api-get-api-online-check-purchase-rights
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: order-management-oms
+    definition: '
+
+        '
+metadata:
+    name: api-get-api-online-check-purchase-rights
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: order-management-oms
+    definition: '
+
+        '
+metadata:
+    name: api-get-api-online-check-purchase-rights
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: pickup-counter
+    definition: '
+
+        '
+metadata:
+    name: api-get-api-master-list-airline
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: pickup-counter
+    definition: '
+
+        '
+metadata:
+    name: api-post-api-master-list-flight
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: pickup-counter
+    definition: '
+
+        '
+metadata:
+    name: api-post-api-master-list-nation
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: pickup-counter
+    definition: '
+
+        '
+metadata:
+    name: api-post-api-master-list-operator
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: pickup-counter
+    definition: '
+
+        '
+metadata:
+    name: api-post-api-master-list-machine
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: pickup-counter
+    definition: '
+
+        '
+metadata:
+    name: api-post-api-master-list-hanging
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: pickup-counter
+    definition: '
+
+        '
+metadata:
+    name: api-post-api-master-manage-flight
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: member-api
+    definition: '
+
+        '
+metadata:
+    name: api-get-list-district
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: member-api
+    definition: '
+
+        '
+metadata:
+    name: api-get-list-district
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: member-api
+    definition: '
+
+        '
+metadata:
+    name: api-get-list-loyalty-card-info
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: member-api
+    definition: '
+
+        '
+metadata:
+    name: api-get-list-loyalty-card-info
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: member-api
+    definition: '
+
+        '
+metadata:
+    name: api-get-list-loyalty-card-info
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: member-api
+    definition: '
+
+        '
+metadata:
+    name: api-get-list-province
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: member-api
+    definition: '
+
+        '
+metadata:
+    name: api-get-list-province
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: member-api
+    definition: '
+
+        '
+metadata:
+    name: api-get-list-china-province
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: member-api
+    definition: '
+
+        '
+metadata:
+    name: api-get-list-sub-district
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: member-api
+    definition: '
+
+        '
+metadata:
+    name: api-get-list-sub-district
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: member-api
+    definition: '
+
+        '
+metadata:
+    name: api-
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: member-api
+    definition: '
+
+        '
+metadata:
+    name: api-
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: member-api
+    definition: '
+
+        '
+metadata:
+    name: api-post-create-document
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: member-api
+    definition: '
+
+        '
+metadata:
+    name: api-post-create-document
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: member-api
+    definition: '
+
+        '
+metadata:
+    name: api-post-create-document
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: member-api
+    definition: '
+
+        '
+metadata:
+    name: api-post-get-loyalty-value
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: member-api
+    definition: '
+
+        '
+metadata:
+    name: api-post-get-loyalty-value
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: member-api
+    definition: '
+
+        '
+metadata:
+    name: api-post-get-loyalty-value
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: member-api
+    definition: '
+
+        '
+metadata:
+    name: api-post-get-member-profile
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: member-api
+    definition: '
+
+        '
+metadata:
+    name: api-post-get-member-profile
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: member-api
+    definition: '
+
+        '
+metadata:
+    name: api-post-get-member-profile
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: member-api
+    definition: '
+
+        '
+metadata:
+    name: api-post-get-member-profile
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: member-api
+    definition: '
+
+        '
+metadata:
+    name: api-post-reverse-document
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: member-api
+    definition: '
+
+        '
+metadata:
+    name: api-post-reverse-document
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: member-api
+    definition: '
+
+        '
+metadata:
+    name: api-post-update-member-profile
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: member-api
+    definition: '
+
+        '
+metadata:
+    name: api-post-update-member-profile
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: member-api
+    definition: '
+
+        '
+metadata:
+    name: api-post-update-member-profile
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: member-api
+    definition: '
+
+        '
+metadata:
+    name: api-post-verify-member-status-by-passport
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: member-api
+    definition: '
+
+        '
+metadata:
+    name: api-post-verify-member-status-by-passport
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: member-api
+    definition: '
+
+        '
+metadata:
+    name: api-post-verify-member-status-by-passport
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: member-api
+    definition: '
+
+        '
+metadata:
+    name: api-verify-mobile-status
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: member-api
+    definition: '
+
+        '
+metadata:
+    name: api-check-duplicate-create-document
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: member-api
+    definition: '
+
+        '
+metadata:
+    name: api-register-member-royalty
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: member-api
+    definition: '
+
+        '
+metadata:
+    name: api-verify-member-royalty
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: member-api
+    definition: '
+
+        '
+metadata:
+    name: api-get-member-data
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: order-management-oms
+    definition: '
+
+        '
+metadata:
+    name: api-get-api-online-get-order
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: order-management-oms
+    definition: '
+
+        '
+metadata:
+    name: api-get-api-online-get-order
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: order-management-oms
+    definition: '
+
+        '
+metadata:
+    name: api-get-api-online-get-order
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: order-management-oms
+    definition: '
+
+        '
+metadata:
+    name: api-get-api-online-get-order-list
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: order-management-oms
+    definition: '
+
+        '
+metadata:
+    name: api-get-api-online-get-order-list
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: order-management-oms
+    definition: '
+
+        '
+metadata:
+    name: api-get-api-online-get-order-list
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: order-management-oms
+    definition: '
+
+        '
+metadata:
+    name: api-get-api-online-hold-order
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: order-management-oms
+    definition: '
+
+        '
+metadata:
+    name: api-get-api-online-hold-order
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: order-management-oms
+    definition: '
+
+        '
+metadata:
+    name: api-get-api-online-hold-order
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: order-management-oms
+    definition: '
+
+        '
+metadata:
+    name: api-get-api-online-void-order
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: order-management-oms
+    definition: '
+
+        '
+metadata:
+    name: api-get-api-online-void-order
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: order-management-oms
+    definition: '
+
+        '
+metadata:
+    name: api-get-api-online-void-order
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: order-management-oms
+    definition: '
+
+        '
+metadata:
+    name: api-get-api-queue-sale-by-sku
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: order-management-oms
+    definition: '
+
+        '
+metadata:
+    name: api-get-api-queue-sale-by-sku
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: order-management-oms
+    definition: '
+
+        '
+metadata:
+    name: api-get-api-queue-sale-by-sku
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: order-management-oms
+    definition: '
+
+        '
+metadata:
+    name: api-post-kp-create-order
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: order-management-oms
+    definition: '
+
+        '
+metadata:
+    name: api-post-kp-create-order
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: order-management-oms
+    definition: '
+
+        '
+metadata:
+    name: api-post-kp-get-order-status
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: order-management-oms
+    definition: '
+
+        '
+metadata:
+    name: api-post-kp-get-order-status
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: order-management-oms
+    definition: '
+
+        '
+metadata:
+    name: api-post-kp-update-order-status
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: order-management-oms
+    definition: '
+
+        '
+metadata:
+    name: api-post-kp-update-order-status
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: member-api
+    definition: '
+
+        '
+metadata:
+    name: api-top-up-e-purse
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: member-api
+    definition: '
+
+        '
+metadata:
+    name: api-get-verify-member-status-idcard-email
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: member-api
+    definition: '
+
+        '
+metadata:
+    name: api-get-verify-member-status-idcard-email
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: member-api
+    definition: '
+
+        '
+metadata:
+    name: api-get-verify-member-status-idcard-mobile
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: member-api
+    definition: '
+
+        '
+metadata:
+    name: api-get-verify-member-status-idcard-mobile
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: member-api
+    definition: '
+
+        '
+metadata:
+    name: api-get-verify-member-status-passport-email
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: member-api
+    definition: '
+
+        '
+metadata:
+    name: api-get-verify-member-status-passport-email
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: member-api
+    definition: '
+
+        '
+metadata:
+    name: api-get-verify-member-status-passport-mobile
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: member-api
+    definition: '
+
+        '
+metadata:
+    name: api-get-verify-member-status-passport-mobile
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: member-api
+    definition: '
+
+        '
+metadata:
+    name: api-get-verify-member-mobile
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: member-api
+    definition: '
+
+        '
+metadata:
+    name: api-get-verify-member-mobile
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: member-api
+    definition: '
+
+        '
+metadata:
+    name: api-get-verify-member-name-englishand-thai
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: member-api
+    definition: '
+
+        '
+metadata:
+    name: api-get-verify-member-name-englishand-thai
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: member-api
+    definition: '
+
+        '
+metadata:
+    name: api-get-list-nationality
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: member-api
+    definition: '
+
+        '
+metadata:
+    name: api-get-list-title
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: member-api
+    definition: '
+
+        '
+metadata:
+    name: api-get-last-document-result
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: member-system-smc
+    definition: '
+
+        '
+metadata:
+    name: api-prepaid-activate-card
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: order-management-oms
+    definition: '
+
+        '
+metadata:
+    name: api-post-get-flight-by-code
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: order-management-oms
+    definition: '
+
+        '
+metadata:
+    name: api-post-get-flight-by-code
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: order-management-oms
+    definition: '
+
+        '
+metadata:
+    name: api-post-get-date-by-flight
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: member-system-smc
+    definition: '
+
+        '
+metadata:
+    name: api-prepaid-check-activate
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: member-system-smc
+    definition: '
+
+        '
+metadata:
+    name: api-prepaid-cancel-card
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: order-management-oms
+    definition: '
+
+        '
+metadata:
+    name: api-post-validate-flight
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: member-system-smc
+    definition: '
+
+        '
+metadata:
+    name: api-prepaid-deactivate-card
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: member-system-smc
+    definition: '
+
+        '
+metadata:
+    name: api-prepaid-register
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: member-api
+    definition: '
+
+        '
+metadata:
+    name: api-post-validate-register-new-member
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: pos
+    definition: '
+
+        '
+metadata:
+    name: api-post-get-customer
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: pos
+    definition: '
+
+        '
+metadata:
+    name: api-post-get-customer
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: pos
+    definition: '
+
+        '
+metadata:
+    name: api-post-get-customer
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: pos
+    definition: '
+
+        '
+metadata:
+    name: api-post-register-api
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: pos
+    definition: '
+
+        '
+metadata:
+    name: api-post-register-api
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: order-management-oms
+    definition: '
+
+        '
+metadata:
+    name: api-save-order
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: order-management-oms
+    definition: '
+
+        '
+metadata:
+    name: api-save-order
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: order-management-oms
+    definition: '
+
+        '
+metadata:
+    name: api-validate-code
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: order-management-oms
+    definition: '
+
+        '
+metadata:
+    name: api-validate-code
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: enterprise-data-platform
+    definition: '
+
+        '
+metadata:
+    name: api-data-sync-transaction
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: enterprise-data-platform
+    definition: '
+
+        '
+metadata:
+    name: api-data-sync-transaction
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: enterprise-data-platform
+    definition: '
+
+        '
+metadata:
+    name: api-data-sync-discount
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: enterprise-data-platform
+    definition: '
+
+        '
+metadata:
+    name: api-data-sync-discount
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: enterprise-data-platform
+    definition: '
+
+        '
+metadata:
+    name: api-data-sync-payment
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: enterprise-data-platform
+    definition: '
+
+        '
+metadata:
+    name: api-data-sync-payment
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: enterprise-data-platform
+    definition: '
+
+        '
+metadata:
+    name: api-data-sync-promotion
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: enterprise-data-platform
+    definition: '
+
+        '
+metadata:
+    name: api-data-sync-promotion
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: enterprise-data-platform
+    definition: '
+
+        '
+metadata:
+    name: api-data-sync-product
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: enterprise-data-platform
+    definition: '
+
+        '
+metadata:
+    name: api-data-sync-product
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: enterprise-data-platform
+    definition: '
+
+        '
+metadata:
+    name: api-data-sync-customer
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: enterprise-data-platform
+    definition: '
+
+        '
+metadata:
+    name: api-data-sync-agent
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: enterprise-data-platform
+    definition: '
+
+        '
+metadata:
+    name: api-data-sync-subagent
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: enterprise-data-platform
+    definition: '
+
+        '
+metadata:
+    name: api-data-sync-transaction
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: enterprise-data-platform
+    definition: '
+
+        '
+metadata:
+    name: api-data-sync-tour
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: enterprise-data-platform
+    definition: '
+
+        '
+metadata:
+    name: api-data-sync-branch
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: enterprise-data-platform
+    definition: '
+
+        '
+metadata:
+    name: api-data-sync-machine
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: enterprise-data-platform
+    definition: '
+
+        '
+metadata:
+    name: api-data-sync-order
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: enterprise-data-platform
+    definition: '
+
+        '
+metadata:
+    name: api-data-sync-customer
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: enterprise-data-platform
+    definition: '
+
+        '
+metadata:
+    name: api-data-sync-customer
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: enterprise-data-platform
+    definition: '
+
+        '
+metadata:
+    name: api-data-sync-shopping-card
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: enterprise-data-platform
+    definition: '
+
+        '
+metadata:
+    name: api-data-sync-platform
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: enterprise-data-platform
+    definition: '
+
+        '
+metadata:
+    name: api-data-sync-collection-point
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: enterprise-data-platform
+    definition: '
+
+        '
+metadata:
+    name: api-data-sync-transaction
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: enterprise-data-platform
+    definition: '
+
+        '
+metadata:
+    name: api-data-sync-pack
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: enterprise-data-platform
+    definition: '
+
+        '
+metadata:
+    name: api-data-sync-recipient
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: enterprise-data-platform
+    definition: '
+
+        '
+metadata:
+    name: api-data-sync-pick-up
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: enterprise-data-platform
+    definition: '
+
+        '
+metadata:
+    name: api-data-sync-location
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: enterprise-data-platform
+    definition: '
+
+        '
+metadata:
+    name: api-data-sync-order
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: enterprise-data-platform
+    definition: '
+
+        '
+metadata:
+    name: api-data-sync-recipient-order
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: enterprise-data-platform
+    definition: '
+
+        '
+metadata:
+    name: api-data-sync-person-account
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: enterprise-data-platform
+    definition: '
+
+        '
+metadata:
+    name: api-data-sync-address
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: enterprise-data-platform
+    definition: '
+
+        '
+metadata:
+    name: api-data-sync-passport
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: enterprise-data-platform
+    definition: '
+
+        '
+metadata:
+    name: api-data-sync-account-relationship
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: enterprise-data-platform
+    definition: '
+
+        '
+metadata:
+    name: api-data-sync-case
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: enterprise-data-platform
+    definition: '
+
+        '
+metadata:
+    name: api-data-sync-contact
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: enterprise-data-platform
+    definition: '
+
+        '
+metadata:
+    name: api-data-sync-feedback-response
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: enterprise-data-platform
+    definition: '
+
+        '
+metadata:
+    name: api-data-sync-email
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: enterprise-data-platform
+    definition: '
+
+        '
+metadata:
+    name: api-data-sync-journey
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: enterprise-data-platform
+    definition: '
+
+        '
+metadata:
+    name: api-data-sync-line
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: enterprise-data-platform
+    definition: '
+
+        '
+metadata:
+    name: api-data-sync-push
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: enterprise-data-platform
+    definition: '
+
+        '
+metadata:
+    name: api-data-sync-sms
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: enterprise-data-platform
+    definition: '
+
+        '
+metadata:
+    name: api-data-sync-campaign
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: member-api
+    definition: '
+
+        '
+metadata:
+    name: api-post-auto-create-king-power-member-card
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: member-api
+    definition: '
+
+        '
+metadata:
+    name: api-post-auto-create-king-power-member-card
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: member-api
+    definition: '
+
+        '
+metadata:
+    name: api-post-create-king-power-member-card
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: member-api
+    definition: '
+
+        '
+metadata:
+    name: api-post-create-king-power-member-card
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: member-api
+    definition: '
+
+        '
+metadata:
+    name: api-post-register-new-member
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: member-api
+    definition: '
+
+        '
+metadata:
+    name: api-post-register-new-member
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: member-api
+    definition: '
+
+        '
+metadata:
+    name: api-post-validate-create-document-request
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: member-api
+    definition: '
+
+        '
+metadata:
+    name: api-post-validate-loyalty-request-document
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: member-api
+    definition: '
+
+        '
+metadata:
+    name: api-post-validate-loyalty-request-document
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: member-api
+    definition: '
+
+        '
+metadata:
+    name: api-post-verify-create-kingpower-card
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: member-api
+    definition: '
+
+        '
+metadata:
+    name: api-post-verify-create-kingpower-card
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: member-api
+    definition: '
+
+        '
+metadata:
+    name: api-post-verify-member-status
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: member-api
+    definition: '
+
+        '
+metadata:
+    name: api-post-verify-member-status
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: pdpa-service
+    definition: '
+
+        '
+metadata:
+    name: api-create-consent
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: pdpa-service
+    definition: '
+
+        '
+metadata:
+    name: api-create-consent
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: pdpa-service
+    definition: '
+
+        '
+metadata:
+    name: api-create-consent
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: pdpa-service
+    definition: '
+
+        '
+metadata:
+    name: api-create-consent
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: pdpa-service
+    definition: '
+
+        '
+metadata:
+    name: api-get-consent
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: pdpa-service
+    definition: '
+
+        '
+metadata:
+    name: api-get-consent
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: pdpa-service
+    definition: '
+
+        '
+metadata:
+    name: api-get-consent
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: pdpa-service
+    definition: '
+
+        '
+metadata:
+    name: api-get-consent
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: pdpa-service
+    definition: '
+
+        '
+metadata:
+    name: api-update-consent
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: pdpa-service
+    definition: '
+
+        '
+metadata:
+    name: api-update-consent
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: pdpa-service
+    definition: '
+
+        '
+metadata:
+    name: api-update-consent
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: pdpa-service
+    definition: '
+
+        '
+metadata:
+    name: api-update-consent
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: pdpa-service
+    definition: '
+
+        '
+metadata:
+    name: api-get-list-purposes
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: pdpa-service
+    definition: '
+
+        '
+metadata:
+    name: api-get-list-purposes
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: pdpa-service
+    definition: '
+
+        '
+metadata:
+    name: api-get-list-purposes
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: pdpa-service
+    definition: '
+
+        '
+metadata:
+    name: api-get-list-purposes
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: pdpa-service
+    definition: '
+
+        '
+metadata:
+    name: api-chk-consent
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: pdpa-service
+    definition: '
+
+        '
+metadata:
+    name: api-update-consent
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: pdpa-service
+    definition: '
+
+        '
+metadata:
+    name: api-login
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: virtual-stock-online-kpc-tht
+    definition: '
+
+        '
+metadata:
+    name: api-get-stocks
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: tai-hai-tao
+    definition: '
+
+        '
+metadata:
+    name: api-get-stocks
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: virtual-stock-online-kpc-tht
+    definition: '
+
+        '
+metadata:
+    name: api-patch-stocks
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: tai-hai-tao
+    definition: '
+
+        '
+metadata:
+    name: api-patch-stocks
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: virtual-stock-online-kpc-tht
+    definition: '
+
+        '
+metadata:
+    name: api-get-stocks-sku
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: tai-hai-tao
+    definition: '
+
+        '
+metadata:
+    name: api-get-stocks-sku
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: virtual-stock-online-kpc-tht
+    definition: '
+
+        '
+metadata:
+    name: api-patch-stocks-sku
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: tai-hai-tao
+    definition: '
+
+        '
+metadata:
+    name: api-patch-stocks-sku
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: kingpower-com-kingpower-app
+    definition: '
+
+        '
+metadata:
+    name: api-orders-status-cancel-sub-order-id-warehouse
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: kingpower-com-kingpower-app
+    definition: '
+
+        '
+metadata:
+    name: api-orders-status-cancel-sub-order-id-warehouse
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: kingpower-com-kingpower-app
+    definition: '
+
+        '
+metadata:
+    name: api-orders-status-hold-sub-order-id-shop
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: kingpower-com-kingpower-app
+    definition: '
+
+        '
+metadata:
+    name: api-orders-status-hold-sub-order-id-shop
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: kingpower-com-kingpower-app
+    definition: '
+
+        '
+metadata:
+    name: api-orders-status-unhold-sub-order-id-shop
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: kingpower-com-kingpower-app
+    definition: '
+
+        '
+metadata:
+    name: api-orders-status-unhold-sub-order-id-shop
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: kingpower-com-kingpower-app
+    definition: '
+
+        '
+metadata:
+    name: api-orders-status-cancel-order-id
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: kingpower-com-kingpower-app
+    definition: '
+
+        '
+metadata:
+    name: api-orders-status-cancel-order-id
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: kingpower-com-kingpower-app
+    definition: '
+
+        '
+metadata:
+    name: api-orders-sub-order-id-delivered
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: kingpower-com-kingpower-app
+    definition: '
+
+        '
+metadata:
+    name: api-orders-sub-order-id-delivered
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: kingpower-com-kingpower-app
+    definition: '
+
+        '
+metadata:
+    name: api-orders-sub-order-id-delivered-suspend
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: kingpower-com-kingpower-app
+    definition: '
+
+        '
+metadata:
+    name: api-orders-sub-order-id-delivered-suspend
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: kingpower-com-kingpower-app
+    definition: '
+
+        '
+metadata:
+    name: api-orders-sub-order-id-dispatch
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: kingpower-com-kingpower-app
+    definition: '
+
+        '
+metadata:
+    name: api-orders-sub-order-id-dispatch
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: kingpower-com-kingpower-app
+    definition: '
+
+        '
+metadata:
+    name: api-orders-sub-order-id-packed
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: kingpower-com-kingpower-app
+    definition: '
+
+        '
+metadata:
+    name: api-orders-sub-order-id-packed
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: kingpower-com-kingpower-app
+    definition: '
+
+        '
+metadata:
+    name: api-orders-sub-order-id-shipped
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: kingpower-com-kingpower-app
+    definition: '
+
+        '
+metadata:
+    name: api-orders-sub-order-id-shipped
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: pickup-counter
+    definition: '
+
+        '
+metadata:
+    name: api-post-api-hanging-cancel-reserve-hanging
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: pickup-counter
+    definition: '
+
+        '
+metadata:
+    name: api-post-api-hanging-cancel-reserve-hanging
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: member-api
+    definition: '
+
+        '
+metadata:
+    name: api-get-historical-loyalty
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: virtual-stock-offline
+    definition: '
+
+        '
+metadata:
+    name: api-api-virtual-stock-get-master-article
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: virtual-stock-offline
+    definition: '
+
+        '
+metadata:
+    name: api-api-virtual-stock-get-master-remain
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: virtual-stock-offline
+    definition: '
+
+        '
+metadata:
+    name: api-api-virtual-stock-paid-order
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: virtual-stock-offline
+    definition: '
+
+        '
+metadata:
+    name: api-api-virtual-stock-split-order
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: virtual-stock-offline
+    definition: '
+
+        '
+metadata:
+    name: api-api-virtual-stock-rs-virtual-stock
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: payment-gateway
+    definition: '
+
+        '
+metadata:
+    name: api-submit-payment-request
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: payment-gateway
+    definition: '
+
+        '
+metadata:
+    name: api-order-query
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: payment-gateway
+    definition: '
+
+        '
+metadata:
+    name: api-reverse-order
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: loyalty-session-m
+    definition: '
+
+        '
+metadata:
+    name: api-sync-member-profile-data
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: crm-salesforce
+    definition: '
+
+        '
+metadata:
+    name: api-sync-member-tier-data
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: staff-app
+    definition: '
+
+        '
+metadata:
+    name: api-get-best-selling-products
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: ma-salesforce
+    definition: '
+
+        '
+metadata:
+    name: api-data-sync-audience
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+spec:
+    type: openapi
+    lifecycle: production
+    owner: guests
+    system: virtual-stock-offline
+    definition: '
+
+        '
+metadata:
+    name: api-api-virtual-stock-refund-order

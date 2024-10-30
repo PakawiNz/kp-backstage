@@ -1,0 +1,31 @@
+volumes:
+  postgres_data:
+  storage_data:
+
+version: "3.8"
+services:
+  backstage:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: build
+    ports:
+      - "3000:3000"
+      - "7007:7007"
+    volumes:
+      # - ./app-config.yaml:/app/app-config.yaml
+      -  ./:/app/
+      -  /app/node_modules/
+    env_file: ".env"
+    environment:
+      POSTGRES_HOST: postgres
+      POSTGRES_PORT: 5432
+    command: yarn run dev
+
+  postgres:
+    image: postgres:14
+    volumes:
+      - postgres_data:/var/lib/postgresql/data/
+    env_file: ".env"
+    ports:
+      - "5432:5432"

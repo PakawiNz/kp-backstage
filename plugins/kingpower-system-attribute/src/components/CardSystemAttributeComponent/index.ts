@@ -1,0 +1,1 @@
+export { CardSystemAttributeComponent } from './CardSystemAttributeComponent';
